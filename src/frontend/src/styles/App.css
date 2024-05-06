@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282828;
+  color: white;
+  font-family: "Montserrat";
+  /* overflow: hidden; */
+}
+
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: white;
+  color: #282828;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.infoIcon {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.infoTitle {
+  font-size: 20px; /* Adjust the size as needed */
+  font-weight: bold;
+}
+
+.infoContentBox {
+  margin-top: 10px;
+}
+
+.infoMessage {
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .infoTitle {
+  color: #087f5b;
+}
+
+.APIInfo {
+  width: 80%;
+}
+
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #ff0000;
+  border-radius: 12px;
+  margin: 10px auto;
+  width: 45%;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 40%;
+  margin: 20px;
+}
+
+.table td,
+th {
+  border: 2px solid white;
+  padding: 9px;
+  width: 50%;
+}
+
+.dateTimeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clockAndDate {
+  text-align: center;
+  margin: 30px;
+  padding: 12px;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.form {
+  margin: 20px;
+  margin-bottom: 25px;
+}
+
+.form label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 4px;
+}
+
+.form input {
+  font-size: 0.98em;
+  padding: 9px;
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
+.form button {
+  font-size: 1em;
+  padding: 8px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid #ff0000;
+  border-bottom: 5px solid #ff0000;
+  border-left: 2px solid #ff0000;
+  border-right: 2px solid #ff0000;
+  transition: transform border-bottom 0.2s;
+  border-radius: 15px;
+}
+
+.form button:active {
+  transform: translateY(3px);
+}
+
+.error {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 2.05em;
+}
+
+.apiAndYT {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .innerApiAndYT {
+  display: flex;
+  flex: 1;
+} */
+
+.timeOfGen {
+  margin: 15px;
+  flex: 0 0 auto;
+}
+
+.ytData {
+  flex: 60%;
+  /* border: 3px solid black; */
+  margin-right: 20px;
+}
+
+.ytDataContent {
+  padding: 20px;
+}
+
+.apiData {
+  /* flex: 40%; */
+  /* min-width: 40%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.ytDataContent img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #f0f0f055;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content p {
+  margin: 0 10px;
+}
+
+.ytHrefs {
+  border: 1px solid #ff0000;
+  padding: 5px;
+  background-color: #ff0000;
+  border-radius: 8px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switchButton {
+  padding: 4px;
+  border: 2px solid greenyellow;
+  font-weight: bold;
+  box-shadow: 2px 2px rgb(74, 148, 132);
+  border-radius: 5px;
+  background-color: greenyellow;
+  cursor: pointer;
+  transition: transform 0s;
+}
+.switchButton:active {
+  transform: translateY(2px);
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloadBtn {
+  padding: 12px;
+  margin-top: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  border: 2px solid rgb(39, 170, 213);
+  background-color: rgb(39, 170, 213);
+  box-shadow: 2px 3px rgb(71, 123, 135);
+  cursor: pointer;
+  transition: transform 0s;
+}
+
+.downloadBtn:active {
+  transform: translateY(2px);
+}
+
+.alignment {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showMore {
+  background: none;
+  color: blue;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.radioBoxOptions {
+  font-size: 0.96em;
+}
